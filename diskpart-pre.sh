@@ -1,7 +1,7 @@
 %pre --interpreter /bin/sh
 exec < /dev/tty3 > /dev/tty3 2>&1
 chvt 3
-# Author: Ramesh Basukala
+# Author: Ramesh Basukala <basukalarameshATgmailDOTcom>
 # Purpose: to let user choose partition layout on kickstart
 # Last Modified: 02.25.2014
 defaultswapsize=4000
